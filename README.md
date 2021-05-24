@@ -7,7 +7,7 @@ In the second line of VKMessages.lua, enter your access_token in the ACCESS_TOKE
 
 Send message (Server side only):
 ```lua
-  -- Both export:
+  -- Export:
   exports["mtasa-vk-api"]:SendMessage( iChat, sMessage )
   -- or so
   exports.mtasa-vk-api:SendMessage( iChat, sMessage )
