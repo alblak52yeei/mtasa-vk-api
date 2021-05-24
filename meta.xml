@@ -1,0 +1,6 @@
+<meta>
+	<info author='rdror' name='VK Messages' version='24.05.2021' />
+	<min_mta_version client='1.5.5' server='1.5.5' />
+	<script src='VKMessages.lua' type='server' />
+	<export function='SendMessage' type='server' />
+</meta>
