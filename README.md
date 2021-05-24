@@ -9,6 +9,6 @@ Send message:
 ```lua
   -- Both export:
   exports["mta-vk-api"]:SendMessage( iChat, sMessage )
-    or
+  -- or so
   exports.mta-vk-api:SendMessage( iChat, sMessage )
 ```
