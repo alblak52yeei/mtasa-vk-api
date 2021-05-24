@@ -1,6 +1,6 @@
 local MESSAGE_SEND_URL = 'https://api.vk.com/method/messages.send'
-local ACCESS_TOKEN = 'your_access_token' -- сюда access_token группы ВК, от которой нужно отсылать сообщения
-local bDebugState = false -- для включения режима дебага поставьте true
+local ACCESS_TOKEN = 'your_access_token' -- here is the access_token of the VK group from which you want to send messages
+local bDebugState = false -- to enable debug mode, set the value to true
 
 function SendMessage( iChat, sMessage )
 	assert( iChat and type( iChat ) == 'number', 'Bad argument 1 @ SendMessage (number expected, got '..type( iChat )..')' )
