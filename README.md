@@ -5,7 +5,7 @@ A resource that allows you to send messages on behalf of a VK group directly fro
 
 In the second line of VKMessages.lua, enter your access_token in the ACCESS_TOKEN variable and start the resource.
 
-Send message:
+Send message (Server side only):
 ```lua
   -- Both export:
   exports["mtasa-vk-api"]:SendMessage( iChat, sMessage )
